@@ -1,6 +1,6 @@
 # Stock-Market-Prediction
 
-![UI](google-predicted.png)
+![UI](google-predictied.png)
 
 This a project of Stock Market Analysis And Forecasting Using Deep Learning(pytorch,gru).
 
@@ -20,11 +20,11 @@ Analysis
 
 As we can see here Microsoft's "High" value is very slowly increasing straight line. IBM's "High" value and Amazon's "High" value started from the approx same stage, even Amazon's "High" value was a bit lower but after 2012 Amazon's "High" value started to exponentially increase and slight drop for IBM's "High" value. Since 2016 there is a high fight going between Google's "High" value and Amazon's "High" value at 2018 Amazon's "High" value also beat Google's "High" value.
 
-![UI](download11.png)
+![UI](download1.png)
 
 In Microsoft data, we can see in 2009 "High" value was under mean for a long time, so we can say there was some loss.
 
-![UI](download12.png)
+![UI](download2.png)
 
 In Google data,there is a very slow increasing trend until 2012, but after 2012 there was an exponential high trend. And very high seasonality.
 
@@ -35,10 +35,6 @@ Forecasting
 **GRU Model:**
 
 Gated recurrent unit is essentially a simplified LSTM. It has the exact same role in the network. The main difference is in the number of gates and weights — GRU is somewhat simpler. It has 2 gates. Since it does not have an output gate, there is no control over the memory content. The update gate controls the information flow from the previous activation, and the addition of new information as well, while the reset gate is inserted into the candidate activation.
-
-<p align="left">
-    <img src="https://www.researchgate.net/profile/Yuanhang-Su/publication/323570767/figure/fig3/AS:674145788506118@1537740289540/The-diagram-of-a-GRU-cell.ppm" width="570" height="470">
-  </p>
 
 Results
 -----
