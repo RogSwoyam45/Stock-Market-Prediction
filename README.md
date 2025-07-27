@@ -1,6 +1,6 @@
 # Stock-Market-Prediction
 
-![UI](gg.jpg)
+![UI](google-predicted.jpg)
 
 This a project of Stock Market Analysis And Forecasting Using Deep Learning(pytorch,gru).
 
@@ -16,15 +16,15 @@ Google | Microsoft | IBM | Amazon
 
 Analysis
 ------
-![UI](download12.jpg)
+![UI](download.jpg)
 
 As we can see here Microsoft's "High" value is very slowly increasing straight line. IBM's "High" value and Amazon's "High" value started from the approx same stage, even Amazon's "High" value was a bit lower but after 2012 Amazon's "High" value started to exponentially increase and slight drop for IBM's "High" value. Since 2016 there is a high fight going between Google's "High" value and Amazon's "High" value at 2018 Amazon's "High" value also beat Google's "High" value.
 
-![UI](download13.jpg)
+![UI](download11.jpg)
 
 In Microsoft data, we can see in 2009 "High" value was under mean for a long time, so we can say there was some loss.
 
-![UI](download14.jpg)
+![UI](download12.jpg)
 
 In Google data,there is a very slow increasing trend until 2012, but after 2012 there was an exponential high trend. And very high seasonality.
 
@@ -42,6 +42,6 @@ Gated recurrent unit is essentially a simplified LSTM. It has the exact same rol
 
 Results
 -----
-![UI](ibm.jpg)
+![UI](download3.jpg)
 
-![UI](ibm3.jpg)
+![UI](download4.jpg)
